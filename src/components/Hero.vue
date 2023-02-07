@@ -3,15 +3,15 @@
         <table id="top_part">
             <tr>
                 <td id="landing" class="animated fadeIn" style="animation-delay:1s;">
-                    <h1>Thank you for participating. See you next year!
-                    </h1>
-                    <!--<a class="btn_one" href="https://forms.gle/NFwvz8vL2xSMJRRt8">Sign Up Today</a><br>
+                    <h1>Varank Gençlik Parlamentosu</h1>
+                    <a class="btn_one" href="https://forms.gle/NFwvz8vL2xSMJRRt8">Başvur</a><br>
                     <table>
                         <tr>
-                            <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i
-                                        class="fab fa-instagram"></i></a></td>
+                            <td class="animated zoomIn" style="animation-delay:2.6s;"> </td>
+                            <!-- <a class="social">
+                                     <i class="fab fa-instagram"></i></a></td> -->
                         </tr>
-                    </table> -->
+                    </table>
                 </td>
                 <!-- <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td> -->
             </tr>
@@ -30,7 +30,7 @@ export default {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background: linear-gradient(90deg, rgba(179, 0, 38, 1) 0%, rgba(119, 0, 26, 1) 50%, rgba(54, 0, 12, 1) 100%);
+    background: #111822;
     color: #ffffff;
 }
 
@@ -84,9 +84,9 @@ export default {
 .btn_one {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
-    color: #820c26;
-    background: #fff;
-    border: 3px solid #820c26;
+    color: #ffffff;
+    background: #111822;
+    border: 3px solid #ffffff;
     padding: 8px 40px;
     /*    width: %; */
     border-radius: 80px;
@@ -100,10 +100,10 @@ export default {
 }
 
 .btn_one:hover {
-    box-shadow: 0px 10px 30px #820c26;
+    box-shadow: 0px 10px 30px #111822;
     cursor: pointer;
-    color: #fff;
-    background: #820c26;
+    color: #111822;
+    background: #ffffff;
 }
 
 @media (max-width: 1000px) {
@@ -138,14 +138,14 @@ export default {
         padding: 6px 30px;
         width: 60%;
         margin: 4vh auto;
-        box-shadow: 0px 10px 20px #820c26;
-        background: #820c26;
+        box-shadow: 0px 1px 1px #ffffff;
+        background: #111822;
         color: #fff;
         text-decoration: none;
     }
 
     .btn_one:hover {
-        box-shadow: 0px 10px 40px #820c26;
+        box-shadow: 0px 1px 1px #ffffff;
         cursor: pointer;
     }
 }

@@ -3,12 +3,11 @@
         style="animation-delay:0.8s;">
         <table>
             <tr>
-                <td id="logo">Varank Debate</td>
+                <td id="logo">V | Gençlik Parlamentosu</td>
                 <td id="navigation">
-                    <a href="#bio">About</a>
-
-                    <a href="#schedule">Schedule</a>
-                    <a href="#call-to-action">Location</a>
+                    <a href="#bio">Hakkımızda</a>
+                    <a href="#schedule">Takvim</a>
+                    <a href="faq-section">SSS</a>
                 </td>
             </tr>
         </table>
@@ -59,12 +58,12 @@ header {
     box-shadow: none;
     transition: 0.4s ease-in-out;
     z-index: 2;
-    color: #820c26;
+    color: #2788a5;
 }
 
 header.isScrolled {
     background-color: #ffffff;
-    color: #820c26;
+    color: #2788a5;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.09);
 }
 

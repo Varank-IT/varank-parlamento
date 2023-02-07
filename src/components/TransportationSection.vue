@@ -1,16 +1,16 @@
 <template>
     <section id="call-to-action" class="wow fadeIn">
         <div class="containerr">
-            <h3>Varank Science High School</h3>
-            <p>How about taking a look at other events organized by Varank Science High School?</p>
-            <a class="cta-btn" href="www.varankfl.com">Let's go!</a>
+            <h3>Varank Fen Lisesi</h3>
+            <p>Varank Fen Lisesi'nin diğer etkinliklerine göz atmaya ne dersin?</p>
+            <a class="cta-btn" href="https://varank-it.github.io/varank/">Olur!</a>
         </div>
     </section>
 </template>
 
 <style scoped>
 #call-to-action {
-    background: #35040f;
+    background: #2788a5;
     background-size: cover;
     padding: 60px 0;
     text-align: center;
@@ -27,12 +27,25 @@
     color: #fff;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 #call-to-action .cta-btn {
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 550;
     font-size: 16px;
-    letter-spacing: 1px;
     display: inline-block;
     padding: 8px 28px;
     border-radius: 25px;
@@ -43,7 +56,8 @@
 }
 
 #call-to-action .cta-btn:hover {
-    background: #000;
+    background: #ededed;
+    color: #4b5658;
     border: 2px solid #fff;
 }
 </style>

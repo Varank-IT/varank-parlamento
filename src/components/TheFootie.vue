@@ -1,15 +1,10 @@
 <template>
     <div id="footer">
         <div>
-            <span>mental breakdown of </span>
-            <a href="https://www.youtube.com/watch?v=6fNKDEEKTQw">AlphenLimited </a>
+            <span>breakcore covers my soul- </span>
+            <a href="https://open.spotify.com/track/62baFV7ZRyv54fItXBZbre?si=34c55298262d4634">AlphenLimited </a>
             <i><img style="height: 1em; width: 1em"
                     src="https://lastfm.freetls.fastly.net/i/u/500x500/ccd2638774ef6e00e497694aa47f47d2"></i>
-            <span> and </span>
-            <a href="https://www.youtube.com/watch?v=9l4YS4h1VqA">MaxTechnics
-            </a>
-            <i><img style="height: 1em; width: 1em"
-                    src="https://cdn.discordapp.com/avatars/488064501816492047/4a825c4b99495d9af3a0c9df222020f8.webp?size=128"></i>
             <br>
             <br>
             <a href="https://www.youtube.com/watch?v=Zi8nqPpW6_E">with love, without a template.

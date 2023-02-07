@@ -21,8 +21,9 @@
                 teşekkür ederken siz değerli katılımcılarımıza bu yolculukta başarı ve güzellikler diliyoruz. Varank
                 Gençlik Parlamentosunda sizlerle buluşmayı dört gözle bekliyoruz.
             </p>
-
-            <h2 class="sub-h">Hakkımızda</h2>
+        </div>
+        <div id="bio">
+            <SectionLabel label="Etkinlik Hakkında" />
             <p>
                 Gençlik Parlamentosu, öğrencilere bir meclis deneyimi yaşatmayı amaç edinen bir simülasyon etkinliğidir.
                 <br>

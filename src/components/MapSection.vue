@@ -2,7 +2,7 @@
     <section class="map-section">
         <div class="map-frame">
             <div class="map">
-                <SectionLabel label="Location" />
+                <SectionLabel label="Bizi Bulun" />
                 <table>
                     <tr>
                         <td>

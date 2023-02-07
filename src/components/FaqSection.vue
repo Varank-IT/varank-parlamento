@@ -70,7 +70,7 @@ export default {
 
 .faq-warp {
     /*padding: 6vh 4vw;*/
-    padding: 2vh 8vw;
+    padding: 2vh 12vw;
 }
 
 .faq {

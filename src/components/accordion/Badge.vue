@@ -19,7 +19,7 @@ export default {
     line-height: 20px;
     border-radius: 50%;
     text-align: center;
-    background: #820c26;
+    background: #232250;
     color: #fff;
     font-size: 12px;
     margin-right: 20px;

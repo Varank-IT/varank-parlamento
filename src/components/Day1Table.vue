@@ -1,6 +1,6 @@
 <template>
     <div style="overflow-x: auto;" id="schedule">
-        <SectionLabel label="Organization Schedule" />
+        <SectionLabel label="Organizasyon Takvimi" />
         <table>
             <tr>
                 <th style="font-size: 20px;">Gün 1 (4 Mart)</th>

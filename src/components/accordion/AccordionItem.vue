@@ -72,7 +72,7 @@ export default {
 
 .faq-title h1 {
     padding: 5px 0px;
-    border-bottom: 4px solid #820c26;
+    border-bottom: 4px solid #2788a5;
     width: 8%;
 }
 
@@ -99,7 +99,7 @@ export default {
 }
 
 .card .card-header:hover {
-    background: rgba(233, 30, 99, 0.1);
+    background: rgba(39, 136, 165, 0.1);
     padding-left: 10px;
 }
 
@@ -134,6 +134,7 @@ export default {
     line-height: 28px;
     letter-spacing: 1px;
     border-top: 1px solid #F3F8FF;
+    text-align: justify;
 }
 
 
