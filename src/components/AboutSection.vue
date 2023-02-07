@@ -1,7 +1,7 @@
 <template>
     <section class="bio-section">
         <div id="bio">
-            <SectionLabel label="Başkanlarımızın Mesajı" />
+            <SectionLabel label="Başkanların Mesajı" />
             <p>
                 Organizasyon ekibim adına sizi ilk gençlik parlamentomuza davet etmekten büyük zevk ve onur duyuyoruz.
                 Eğlenceli ve en önemlisi öğretici bir program düzenlemek için yorulmadan çalıştık ve ülkenin en önemli
@@ -67,7 +67,8 @@ export default {
     margin-left: 12%;
     margin-right: 12%;
     margin-top: 50px;
-    text-align: justify;
+    word-spacing: normal;
+    text-align: center;
 }
 
 .sub-h {

@@ -4,7 +4,8 @@
             <tr>
                 <td id="landing" class="animated fadeIn" style="animation-delay:1s;">
                     <h1>Varank Gençlik Parlamentosu</h1>
-                    <a class="btn_one" href="https://forms.gle/NFwvz8vL2xSMJRRt8">Başvur</a><br>
+                    <a class="btn_one"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSdnR3dX0GtzCnBSI7Zn6jAw11_XYzriDGTJgmJ3ghXsCn2fXw/viewform">Başvur</a><br>
                     <table>
                         <tr>
                             <td class="animated zoomIn" style="animation-delay:2.6s;"> </td>
@@ -26,6 +27,8 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
 #top_part {
     width: 100%;
     margin-left: auto;
@@ -49,8 +52,9 @@ export default {
 
 #landing h1 {
     font-size: 45px;
-    /*    word-wrap: break-word; */
     text-align: center;
+    font-family: 'Cinzel', serif;
+    color: #d1ab74;
 }
 
 #landing table {
@@ -84,9 +88,9 @@ export default {
 .btn_one {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
-    color: #ffffff;
+    color: #d1ab74;
     background: #111822;
-    border: 3px solid #ffffff;
+    border: 3px solid #d1ab74;
     padding: 8px 40px;
     /*    width: %; */
     border-radius: 80px;
@@ -97,6 +101,7 @@ export default {
     margin-right: auto;
     transition: 0.4s ease-in-out;
     text-decoration: none;
+    font-family: 'Cinzel', serif;
 }
 
 .btn_one:hover {
@@ -125,6 +130,13 @@ export default {
         padding: 0px 4%;
     }
 
+    #landing h1 {
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Cinzel', serif;
+        color: #d1ab74;
+    }
+
     #landing table {
         width: 100%;
         margin-top: 6vh;
@@ -138,14 +150,15 @@ export default {
         padding: 6px 30px;
         width: 60%;
         margin: 4vh auto;
-        box-shadow: 0px 1px 1px #ffffff;
+        box-shadow: 0px 1px 1px #d1ab74;
         background: #111822;
         color: #fff;
         text-decoration: none;
+        font-family: 'Cinzel', serif;
     }
 
     .btn_one:hover {
-        box-shadow: 0px 1px 1px #ffffff;
+        box-shadow: 0px 1px 1px #d1ab74;
         cursor: pointer;
     }
 }

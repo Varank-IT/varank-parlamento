@@ -3,11 +3,10 @@
         style="animation-delay:0.8s;">
         <table>
             <tr>
-                <td id="logo">V | Gençlik Parlamentosu</td>
+                <td id="logo">Gençlik Parlamentosu</td>
                 <td id="navigation">
-                    <a href="#bio">Hakkımızda</a>
-                    <a href="#schedule">Takvim</a>
-                    <a href="faq-section">SSS</a>
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSdnR3dX0GtzCnBSI7Zn6jAw11_XYzriDGTJgmJ3ghXsCn2fXw/viewform">Başvur</a>
                 </td>
             </tr>
         </table>
@@ -53,17 +52,17 @@ header {
     position: fixed;
     font-weight: bold;
     // background: transparent;
-    background-color: #ffffff;
+    background-color: #111822;
     color: #000;
     box-shadow: none;
     transition: 0.4s ease-in-out;
     z-index: 2;
-    color: #2788a5;
+    color: #d1ab74;
 }
 
 header.isScrolled {
     background-color: #ffffff;
-    color: #2788a5;
+    color: #232250;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.09);
 }
 

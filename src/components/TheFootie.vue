@@ -1,10 +1,11 @@
 <template>
     <div id="footer">
         <div>
-            <span>breakcore covers my soul- </span>
-            <a href="https://open.spotify.com/track/62baFV7ZRyv54fItXBZbre?si=34c55298262d4634">AlphenLimited </a>
+            <span>breakcore covers </span>
+            <a href="https://open.spotify.com/track/62baFV7ZRyv54fItXBZbre?si=34c55298262d4634">AlphenLimited's </a>
             <i><img style="height: 1em; width: 1em"
                     src="https://lastfm.freetls.fastly.net/i/u/500x500/ccd2638774ef6e00e497694aa47f47d2"></i>
+            <span> soul.</span>
             <br>
             <br>
             <a href="https://www.youtube.com/watch?v=Zi8nqPpW6_E">with love, without a template.

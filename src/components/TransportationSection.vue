@@ -25,6 +25,8 @@
 
 #call-to-action p {
     color: #fff;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 a:link {

@@ -134,7 +134,8 @@ export default {
     line-height: 28px;
     letter-spacing: 1px;
     border-top: 1px solid #F3F8FF;
-    text-align: justify;
+    word-spacing: normal;
+    text-align: center;
 }
 
 

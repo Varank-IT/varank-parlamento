@@ -30,11 +30,11 @@ h1:after {
     font-size: 40px;
     content: "";
     background: black;
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     height: 50%;
-    width: 1px;
+    width: 2px;
 
 }
 </style>
