@@ -1,37 +1,35 @@
 <template>
     <section class="map-section">
+        <SectionLabel label="Bizi Bulun" />
         <div class="map-frame">
             <div class="map">
-                <SectionLabel label="Bizi Bulun" />
-                <table>
-                    <tr>
-                        <td>
-                            <div id="inner_div">
-                                <table id="inner_table">
-                                    <tr>
-                                        <td><i class="fas fa-phone"></i> &nbsp; +90 538 264 25 31</td>
-                                    </tr>
-                                    <tr>
-                                        <td><i class="fas fa-at"></i> &nbsp; varankdebate@gmail.com</td>
-                                    </tr>
-                                    <tr>
-                                        <td><i class="fas fa-map-marker-alt"></i>
-                                            <div id="address">
-                                                Aydınevler Mahallesi<br>
-                                                Saygı Caddesi, No: 28<br>
-                                                Maltepe/İstanbul
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3013.3233333091694!2d29.124876851287386!3d40.95249513070231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac6880b8786f5%3A0x1da8998bd491da0b!2s%C5%9Eehit%20%C4%B0lhan%20Varank%20High%20School%20of%20Science!5e0!3m2!1sen!2str!4v1664199525623!5m2!1sen!2str"
-                    width="440" height="290" style="border:0;" allowfullscreen="true" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div id="address">
+                    <h3>Yeditepe Üniversitesi</h3>
+                    <i class="fas fa-map-marker-alt"></i>
+                    Kayışdağı,<br> İnönü Mahallesi, <br> Kayışdağı Caddesi, <br> 34755
+                    Ataşehir/İstanbul<br><br>
+                    <iframe id="frame"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.4338093090264!2d29.150023615693666!3d40.97198072960593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac5efbd78551d%3A0x2dac4ac9e6f7c925!2sYeditepe%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1676021517681!5m2!1str!2str"
+                        width="250px" height="250px" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+        <div class="map-frame">
+            <div class="map">
+                <div id="address">
+                    <h3>Kültür Merkezi</h3>
+                    <i class="fas fa-map-marker-alt"></i>
+                    Kozyatağı,<br> Buket Sokak, <br> No. 1 <br> 34000
+                    Kadıköy/İstanbul<br><br>
+                    <iframe id="frame"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1506.271123082359!2d29.091576747197273!3d40.969605758583825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac7acd27c98e5%3A0xb10f29abc624ff1c!2zS0FESUvDllkgQkVMRUTEsFlFU8SwIEtPWllBVEHEnkkgS8OcTFTDnFIgTUVSS0VaxLA!5e0!3m2!1str!2str!4v1676022596997!5m2!1str!2str"
+                        width="250px" height="250px" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <br>
+                </div>
             </div>
         </div>
     </section>
@@ -46,100 +44,102 @@ export default {
         SectionLabel
     }
 }
+
 </script>
 
 <style scoped>
+.map-section {
+    padding: 2vh 12vw;
+    text-align: center;
+}
+
 .map {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 5vh;
-    padding-left: 12vw;
-    padding-right: 12vw;
-    padding-top: 5vh
+    padding-bottom: 3vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 2vh
 }
 
-@media (max-width: 1000px) {
-    .map {
-        flex-direction: column;
-    }
-}
-
-#contact {
-    width: 92vw;
-    padding: 6vh 4vw;
+.map-frame {
+    display: inline-flex;
+    flex-direction: wrap;
 }
 
 
-#contact table {
-    width: 100%;
-}
-
-#contact table tr td {
-    width: 50%;
-}
-
-
-#inner_div table {
-    width: 100%;
-
-}
-
-#inner_div table tr td {
-    font-weight: bold;
-}
-
-#inner_table tr td {
-    padding: 10px 50px !important;
-}
-
-#contact form {
-    width: 100%;
-}
-
-#contact form input {
-    width: 96%;
-    margin: 20px 1%;
-    background: transparent;
-    border: 0px;
-    border-bottom: 3px solid rgba(255, 44, 90, 0.5);
-    padding: 8px 10px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    transition: 0.4s ease-in-out;
-    color: #000;
-    font-weight: bold;
-}
-
-#contact form textarea {
-    width: 96%;
-    margin: 20px 1%;
-    padding: 8px 10px;
-    border: 0px;
-    border-bottom: 3px solid rgba(255, 44, 90, 0.5);
-    padding: 8px 10px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    background: transparent;
-    resize: none;
-    transition: 0.4s ease-in-out;
-    color: #000;
-    font-weight: bold;
-}
-
-#contact form input:focus {
-    outline: none;
-    border-bottom: 3px solid rgba(255, 44, 90, 1);
-}
-
-#contact form textarea:focus {
-    outline: none;
-    border-bottom: 3px solid rgba(255, 44, 90, 1);
-}
 
 #address {
     position: relative;
-    top: -25px;
-    left: 30px;
+    text-align: center;
+
+}
+
+.frame {
+    display: flex;
+}
+
+@media (max-width: 900px) {
+
+    .map-section {
+        padding: 2vh 12vw;
+        align-items: center;
+    }
+
+    .map {
+        display: flex;
+        align-items: center;
+        padding-bottom: 3vh;
+        padding-top: 2vh
+    }
+
+
+    #address {
+        position: relative;
+        text-align: center;
+        align-items: center;
+    }
+
+}
+
+.btn_one {
+    font-size: 18px;
+    color: #000000;
+    background: #ffffff;
+    border: 3px solid #000000;
+    padding: 8px 40px;
+    /*    width: %; */
+    border-radius: 80px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+.btn_one:hover {
+    box-shadow: 0px 10px 30px #111822;
+    cursor: pointer;
+    color: #ffffff;
+    background: #000000;
+}
+
+@media (max-width: 1000px) {
+    .btn_one {
+        padding: 6px 30px;
+        width: 50%;
+        background: #ffffff;
+        color: #000000;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .btn_one:hover {
+        box-shadow: 0px 1px 1px #000000;
+        cursor: pointer;
+    }
 }
 </style>

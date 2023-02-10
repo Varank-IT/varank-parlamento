@@ -3,7 +3,9 @@
         <table id="top_part">
             <tr>
                 <td id="landing" class="animated fadeIn" style="animation-delay:1s;">
+                    <h3>4-6 Mart</h3>
                     <h1>Varank Gençlik Parlamentosu</h1>
+                    <h2>Fikir benim, dinletirim!</h2>
                     <a class="btn_one"
                         href="https://docs.google.com/forms/d/e/1FAIpQLSdnR3dX0GtzCnBSI7Zn6jAw11_XYzriDGTJgmJ3ghXsCn2fXw/viewform">Başvur</a><br>
                     <table>
@@ -52,6 +54,20 @@ export default {
 
 #landing h1 {
     font-size: 45px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: #d1ab74;
+}
+
+#landing h2 {
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: #d1ab74;
+}
+
+#landing h3 {
+    font-size: 25px;
     text-align: center;
     font-family: 'Cinzel', serif;
     color: #d1ab74;
@@ -108,7 +124,7 @@ export default {
     box-shadow: 0px 10px 30px #111822;
     cursor: pointer;
     color: #111822;
-    background: #ffffff;
+    background: #d1ab74;
 }
 
 @media (max-width: 1000px) {

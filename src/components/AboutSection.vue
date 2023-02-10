@@ -20,6 +20,13 @@
                 noktasında size “geçiş üstünlüğü” sağlayacak etkinliğimizde emeği geçen tüm ekip arkadaşlarımıza
                 teşekkür ederken siz değerli katılımcılarımıza bu yolculukta başarı ve güzellikler diliyoruz. Varank
                 Gençlik Parlamentosunda sizlerle buluşmayı dört gözle bekliyoruz.
+                <br>
+                <br>
+                <b>Organizasyon Eş Başkanları</b>
+                <br>
+                Mert Yazıcıoğlu
+                <br>
+                Yiğit Yakup
             </p>
         </div>
         <div id="bio">

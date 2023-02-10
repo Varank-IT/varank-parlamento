@@ -36,7 +36,7 @@ export default {
                 answer: 'Merkez sağ siyasi yelpazenin sağına doğru eğilir, ancak merkeze diğerlerinden daha yakındır. Toplumun dini değerlerine saygılıdır. Toplumun dini değerleri yanında milli-yerel değerlerini, ülkenin birlik ve bütünlüğünü, dilini, gelenek ve göreneklerini sahiplenir. Merkez Sağ mevcut durumu savunurlar, her türlü yeniliğe karşıdırlar. Sermaye ve toprak sahiplerinin mülkiyet haklarını korurlar ekonomik olarak kalkınmacı bir politika izlerler. Bu noktada merkez sağ ideolojisi, ekonomide liberal anlayıştan esinlenirken toplumda muhafazakarlık etkisindedir.',
             },
             {
-                question: 'Liberalistler',
+                question: 'Liberaller',
                 answer: 'Liberalizm, bireyin özgürlüğü üzerine kurulmuş bir siyasi felsefe akımıdır. Bu noktada bireyler ancak devlet otoritesinin en az olduğu ve herhangi bir keyfi kısıtlama altında olmadıkları taktirde özgürlerdir. Liberalizm, siyasi iktidarın anayasa ve hukukun üstünlüğü ile güvence altına alınmasına çok önem verirler. Buradaki amaç, bireyin özgürlüğünü sağlayıp devleti kısıtlamaktır. Kısıtlanmış devlet kavramında kastedilen sosyalist ideolojideki toplumsal alanı kısıtlayan ve çevreleyen devlet yapısına zıt bir anlayıştır.Lakin hiçbir liberal hükümette hükümetin görev alanı o denli dar değildir.Liberalizm, bu noktada “koordinasyon faaliyetleri” adı altında sosyal hayatı tamamen kontrol altına almaması kaydıyla devletin yurttaşlarına yardımlarda bulunmasını, altyapı yatırımları yapmasını, eğitim kurumları açmasını uygun görür.'
             },
             {

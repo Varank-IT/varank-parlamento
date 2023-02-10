@@ -2,15 +2,15 @@
     <section id="call-to-action" class="wow fadeIn">
         <div class="containerr">
             <h3>Varank Fen Lisesi</h3>
-            <p>Varank Fen Lisesi'nin diğer etkinliklerine göz atmaya ne dersin?</p>
-            <a class="cta-btn" href="https://varank-it.github.io/varank/">Olur!</a>
+            <p>Varank Fen Lisesi'nin diğer etkinliklerine göz atmak ister miydin?</p>
+            <a class="cta-btn" href="https://varank-it.github.io/varank/">Beni eve götür!</a>
         </div>
     </section>
 </template>
 
 <style scoped>
 #call-to-action {
-    background: #2788a5;
+    background: #111822;
     background-size: cover;
     padding: 60px 0;
     text-align: center;
