@@ -65,7 +65,7 @@ export default {
 
 .map-frame {
     display: inline-flex;
-    flex-direction: wrap;
+    flex-direction: row;
 }
 
 
@@ -91,7 +91,8 @@ export default {
         display: flex;
         align-items: center;
         padding-bottom: 3vh;
-        padding-top: 2vh
+        padding-top: 2vh;
+
     }
 
 
@@ -128,6 +129,12 @@ export default {
 }
 
 @media (max-width: 1000px) {
+
+    .map-frame {
+        display: block;
+        flex-direction: row;
+    }
+
     .btn_one {
         padding: 6px 30px;
         width: 50%;

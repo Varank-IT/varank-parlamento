@@ -3,20 +3,14 @@
         <table id="top_part">
             <tr>
                 <td id="landing" class="animated fadeIn" style="animation-delay:1s;">
-                    <h3>4-6 Mart</h3>
+                    <p id="timer"></p>
                     <h1>Varank Gençlik Parlamentosu</h1>
                     <h2>Fikir benim, dinletirim!</h2>
+                    <h3>4-6 Mart</h3>
                     <a class="btn_one"
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSdnR3dX0GtzCnBSI7Zn6jAw11_XYzriDGTJgmJ3ghXsCn2fXw/viewform">Başvur</a><br>
-                    <table>
-                        <tr>
-                            <td class="animated zoomIn" style="animation-delay:2.6s;"> </td>
-                            <!-- <a class="social">
-                                     <i class="fab fa-instagram"></i></a></td> -->
-                        </tr>
-                    </table>
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSdnR3dX0GtzCnBSI7Zn6jAw11_XYzriDGTJgmJ3ghXsCn2fXw/viewform">Başvur</a>
+                    <!--<a class="social"><i class="fab fa-instagram"></i></a> it aint rendering properly... yet :> -->
                 </td>
-                <!-- <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td> -->
             </tr>
         </table>
     </section>
@@ -26,6 +20,24 @@
 export default {
     name: 'Hero'
 }
+
+// Set the date we're counting down to
+var countDownDate = new Date("Mar 4, 2023 09:00:00").getTime();
+var x = setInterval(function () {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    document.getElementById("timer").innerHTML = days + " Gün " + hours + " Saat "
+        + minutes + " Dakika " + seconds + " Saniye";
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("timer").innerHTML = "EXPIRED";
+    }
+}, 1000);
+
 </script>
 
 <style scoped>
@@ -60,7 +72,7 @@ export default {
 }
 
 #landing h2 {
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     font-family: 'Cinzel', serif;
     color: #d1ab74;
@@ -68,6 +80,13 @@ export default {
 
 #landing h3 {
     font-size: 25px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: #d1ab74;
+}
+
+#landing p {
+    font-size: 20px;
     text-align: center;
     font-family: 'Cinzel', serif;
     color: #d1ab74;
@@ -83,25 +102,31 @@ export default {
     text-align: left;
 }
 
-/* .social {
-    color: rgb(255, 44, 90);
-    font-size: 23px;
-    padding: 12px 17px;
-    border-radius: 50%;
-    background: transparent;
-    transition: 0.4s ease-in-out;
+.social {
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #d1ab74;
+    background: #111822;
+    padding: 8px 40px;
+    border-radius: 80px;
     font-weight: bold;
-    margin: 0px 8px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
 }
 
 .social:hover {
+    box-shadow: 0px 10px 30px #111822;
     cursor: pointer;
-    color: #fff;
-    background: rgb(255, 44, 90);
-    box-shadow: 0px 10px 30px rgba(255, 66, 107, 0.8);
+    color: #111822;
+    background: #d1ab74;
 }
-*/
+
 .btn_one {
+    display: inline-block;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     color: #d1ab74;
@@ -147,7 +172,28 @@ export default {
     }
 
     #landing h1 {
-        font-size: 35px;
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Cinzel', serif;
+        color: #d1ab74;
+    }
+
+    #landing h2 {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Cinzel', serif;
+        color: #d1ab74;
+    }
+
+    #landing h3 {
+        font-size: 15px;
+        text-align: center;
+        font-family: 'Cinzel', serif;
+        color: #d1ab74;
+    }
+
+    #landing p {
+        font-size: 15px;
         text-align: center;
         font-family: 'Cinzel', serif;
         color: #d1ab74;
@@ -163,12 +209,12 @@ export default {
     }
 
     .btn_one {
-        padding: 6px 30px;
+        padding: 6px 20px;
         width: 60%;
-        margin: 4vh auto;
+        margin: 3vh auto;
         box-shadow: 0px 1px 1px #d1ab74;
         background: #111822;
-        color: #fff;
+        color: #d1ab74;
         text-decoration: none;
         font-family: 'Cinzel', serif;
     }
@@ -178,15 +224,4 @@ export default {
         cursor: pointer;
     }
 }
-
-
-/*
-#rightImage {
-    width: 100%;
-    height: 95vh;
-    background: linear-gradient(0deg, rgba(255, 44, 90, 0.8), rgba(2255, 44, 90, 0.8)), url("https://images.unsplash.com/photo-1506057527569-6a0285b2fcc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=60") center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-*/
 </style>

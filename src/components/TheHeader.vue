@@ -3,7 +3,7 @@
         style="animation-delay:0.8s;">
         <table>
             <tr>
-                <td id="logo">Gençlik Parlamentosu</td>
+                <td id="logo">V | Parlamento</td>
                 <td id="navigation">
                     <a
                         href="https://docs.google.com/forms/d/e/1FAIpQLSdnR3dX0GtzCnBSI7Zn6jAw11_XYzriDGTJgmJ3ghXsCn2fXw/viewform">Başvur</a>
@@ -44,14 +44,11 @@ export default {
 // oh, thanks! -a
 
 header {
-    /* width: 92vw; */
     width: 100vw;
-    /* padding: 6vh 4vw; */
     padding-top: 1.5vh;
     padding-bottom: 1.5vh;
     position: fixed;
     font-weight: bold;
-    // background: transparent;
     background-color: #111822;
     color: #000;
     box-shadow: none;
@@ -73,20 +70,15 @@ header table {
 
 #logo {
     width: 20%;
-
     padding-left: 2vw;
+    font-size: 24px;
 }
 
 /* i want to die */
 
 #navigation {
-    width: 80%;
-
+    width: 50%;
     padding-right: 2vw;
-}
-
-#logo {
-    font-size: 24px;
 }
 
 #navigation {
@@ -104,5 +96,67 @@ header table {
 
 #navigation a:hover {
     border-bottom: 2px solid #fff;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    header {
+        /* width: 92vw; */
+        width: 100vw;
+        /* padding: 6vh 4vw; */
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+        position: fixed;
+        font-weight: bold;
+        background-color: #111822;
+        color: #000;
+        box-shadow: none;
+        transition: 0.4s ease-in-out;
+        z-index: 2;
+        color: #d1ab74;
+    }
+
+    header.isScrolled {
+        background-color: #ffffff;
+        color: #232250;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.09);
+    }
+
+    header table {
+        width: 100%;
+    }
+
+    #logo {
+        width: 70%;
+        padding-left: 6vw;
+        font-size: 18px;
+    }
+
+    /* i want to die */
+
+    #navigation {
+        width: 70%;
+        padding-right: 6vw;
+        font-size: 18px;
+    }
+
+    #navigation {
+        text-align: right;
+    }
+
+    #navigation a {
+        color: inherit;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-bottom: 2px solid transparent;
+        margin-left: 4vw;
+        transition: 0.4s ease-in-out;
+    }
+
+    #navigation a:hover {
+        border-bottom: 2px solid #fff;
+    }
+
 }
 </style>
