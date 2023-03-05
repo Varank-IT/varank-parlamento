@@ -165,8 +165,8 @@ var x = setInterval(function () {
 
     #landing {
         width: 92% !important;
-        height: 75vh;
-        padding-top: 20vh !important;
+        height: 100vh;
+        padding-top: auto !important;
         text-align: center;
         padding: 0px 4%;
     }

@@ -1,6 +1,5 @@
 <template>
-    <header id="header" class="animated slideInDown" :class="{ 'isScrolled': hasScrolled }"
-        style="animation-delay:0.8s;">
+    <header id="header" class="animated slideInDown" :class="{ 'isScrolled': hasScrolled }" style="animation-delay:0.8s;">
         <table>
             <tr>
                 <td id="logo">V | Parlamento</td>
@@ -10,7 +9,7 @@
                 </td>
             </tr>
         </table>
-    </header>
+</header>
 </template>
 
 <script>
@@ -21,7 +20,7 @@ export default {
     }),
     methods: {
         handleScroll() {
-            if (window.innerWidth >= 1000) {
+            if (window.innerWidth >= 1) {
                 this.hasScrolled = document.body.scrollTop > 80 || document.documentElement.scrollTop > 80;
             }
         }
@@ -120,7 +119,7 @@ header table {
     header.isScrolled {
         background-color: #ffffff;
         color: #232250;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.09);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
     }
 
     header table {
